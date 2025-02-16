@@ -8,71 +8,221 @@
 body {
   font-family: "Inter", sans-serif;
   line-height: 1.6;
+  background-color: #1A1A1A;
 }
+
 
 /* Navbar styles */
 .navbar {
-  /* Add styles for the navbar */
+  /* Add styles for navbar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 30px;
+  box-sizing: border-box;
+  height: 4.2rem;
 }
 
 .logo {
   /* Add styles for the logo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00FF9D;
+  gap: 5px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .logo img {
-  /* Add styles for the logo image */
+  /* Add styles for logo image */
+  border-radius: 50%;
+  border: 2px solid #00FF9D;
+  transform: scale(.8);
+}
+
+.menu {
+  /* Add styles for nav links */
+  display: flex;
+  gap: 50px;
 }
 
 .menu a {
-  /* Add styles for the navigation links */
+  /* Add styles for nav links */
+  text-decoration: none;
+  color: white;
+
 }
 
-.menu a:hover {
-  /* Add hover styles for navigation links */
+.menu a:hover{
+  color: #00FF9D;
+
 }
+
 
 /* Hero section styles */
 .hero {
-  /* Add styles for the hero section */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+  background-image: url('./assets/chaicohort.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .hero-content {
   /* Add styles for the hero content container */
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-content h1 {
   /* Add styles for the hero heading */
+  color: #00FF9D;
+  text-align: center;
+
 }
 
 .hero-content p {
   /* Add styles for the hero paragraph */
+  color: white;
+  font-size: .8rem;
+  text-align: center;
 }
 
 .hero-content img {
   /* Add styles for the image in the hero section */
+  border: 2px solid #00FF9D;
+  border-radius: 9px;
+  box-sizing: border-box;
+
 }
 
 .enroll-button {
   /* Add styles for the enroll button */
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-size: large;
+  border: none;
+  background-color: #00FF9D;
+  cursor: pointer;
 }
 
 .enroll-button:hover {
   /* Add hover styles for the enroll button */
+  background-color: #03e08b;
+
 }
 
 /* Highlights section styles */
 .highlights {
   /* Add styles for the highlights section */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  height: 30vh;
+  padding: 10px 30px;
+
+
 }
 
 .highlight-card {
   /* Add styles for each highlight card */
+  background-color: #2A2A2A;
+  border-radius: 8px;
+  width: 30%;
+  height: 90%;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+
+
 }
 
 .highlight-card h3 {
   /* Add styles for highlight card headings */
+  color: #00FF9D;
+  text-align: center;
+
 }
 
 .highlight-card p {
   /* Add styles for highlight card paragraphs */
+  color: white;
+  text-align: center;
+  font-size: .9rem;
+}
+
+
+@media (max-width:770px) {
+  .navbar{
+    padding: 10px 5px;
+    gap: 10px;
+  }
+  .logo{
+    font-size: .8rem;
+  }
+  .menu {
+    gap: 16px;
+  }
+
+  .menu a {
+    font-size: .7rem;
+  }
+
+  .hero {
+    height: 100vh;
+  
+  }
+  .hero-content{
+    gap: 30px;
+  }
+
+  .highlights {
+    /* Add styles for the highlights section */
+    flex-direction: column;
+    padding: 45px 0px;
+    height: auto;
+
+  }
+
+  .highlight-card {
+    /* Add styles for each highlight card */
+    width: 90%;
+    gap: 20px;
+    padding: 25px 10px;
+    height: max-content;
+  }
+
+  .hero-content img {
+    width: 80%;
+    object-fit: contain;
+    max-height: max-content;
+
+  }
+
 }
