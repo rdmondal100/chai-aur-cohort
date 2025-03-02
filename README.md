@@ -1,31 +1,21 @@
-# Chai Aur Cohort ☕️
 
-[![GitHub issues](https://img.shields.io/github/issues/rdmondal100/chai-aur-cohort)](https://github.com/rdmondal100/chai-aur-cohort/issues)
-[![GitHub forks](https://img.shields.io/github/forks/rdmondal100/chai-aur-cohort)](https://github.com/rdmondal100/chai-aur-cohort/network)
-[![GitHub stars](https://img.shields.io/github/stars/rdmondal100/chai-aur-cohort)](https://github.com/rdmondal100/chai-aur-cohort/stargazers)
+ </h1>
+<p align="center"> <img src="https://i.ytimg.com/vi/yG8JMlldoCE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBdgrl8yf3wBLMkJbOL5tsMqgLugQ" width="600"> </p> <p align="center"> <a href="https://github.com/rdmondal100/chai-aur-cohort/issues"> <img src="https://img.shields.io/github/issues/rdmondal100/chai-aur-cohort?color=red"> </a> <a href="https://github.com/rdmondal100/chai-aur-cohort/network"> <img src="https://img.shields.io/github/forks/rdmondal100/chai-aur-cohort?color=blue"> </a> <a href="https://github.com/rdmondal100/chai-aur-cohort/stargazers"> <img src="https://img.shields.io/github/stars/rdmondal100/chai-aur-cohort?color=yellow"> </a> </p>
+
+<h1 align="center">Chai Aur Cohort ☕️ </h1><h2 align="center"> Riday Mondal 🧑‍💻 </h2>
+<p align="center"> <a href="https://instagram.com/ridaymondal100"> <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white"> </a> <a href="https://linkedin.com/in/ridaymondal100"> <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white"> </a> <a href="https://x.com/rdmondal100"> <img src="https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white"> </a>
+<a href="mailto:rdmondal100@gmail.com"> <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white"> </a> </p>
+
+
 
 > **Note:** This repository is actively evolving! I'm currently building out content while learning. Contributions and suggestions are welcome!
-<!-- 
-# 👨‍🏫Cohort Teachers & Mentors  
 
-### **Hitesh Choudhary**  
+<h2 align= "center"> 👨‍🏫 Cohort Teachers & Mentors </h2> 
 
-<img src="https://github.com/hiteshchoudhary.png" width="50" height="50" style="border-radius:50%;">   [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?logo=github&logoColor=white)](https://github.com/hiteshchoudhary)  [![Twitter (X)](https://img.shields.io/badge/X-000000.svg?logo=X&logoColor=white)](https://x.com/Hiteshdotcom)  [![YouTube](https://img.shields.io/badge/YouTube-FF0000.svg?logo=youtube&logoColor=white)](https://www.youtube.com/@chaiaurcode)  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hiteshchoudhary/)  
-
-
-### **Piyush Garg**  
-<img src="https://github.com/piyushgarg-dev.png" width="50" height="50" style="border-radius:50%;">  
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717.svg?logo=github&logoColor=white)](https://github.com/piyushgarg-dev)  [![Twitter (X)](https://img.shields.io/badge/X-000000.svg?logo=X&logoColor=white)](https://x.com/piyushgarg_dev)  [![YouTube](https://img.shields.io/badge/YouTube-FF0000.svg?logo=youtube&logoColor=white)](https://www.youtube.com/@piyushgargdev)  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/piyushgarg195/)  
- -->
-
-# 👨‍🏫 Cohort Teachers & Mentors  
-
-<!-- Hitesh Choudhary -->
 <p align="center">
     <img src="https://github.com/hiteshchoudhary.png" width="100" height="100" style="border-radius:50%;">
 </p>
-<h3 align="center">Hitesh Choudhary</h3>
+<h3 align="center">Hitesh Choudhary Sir</h3>
 <p align="center">
     <a href="https://github.com/hiteshchoudhary">
         <img src="https://img.shields.io/badge/GitHub-181717.svg?logo=github&logoColor=white">
@@ -43,11 +33,10 @@
 
 ---
 
-<!-- Piyush Garg -->
 <p align="center">
     <img src="https://github.com/piyushgarg-dev.png" width="100" height="100" style="border-radius:50%;">
 </p>
-<h3 align="center">Piyush Garg</h3>
+<h3 align="center">Piyush Garg Sir</h3>
 <p align="center">
     <a href="https://github.com/piyushgarg-dev">
         <img src="https://img.shields.io/badge/GitHub-181717.svg?logo=github&logoColor=white">
@@ -62,6 +51,7 @@
         <img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?logo=linkedin&logoColor=white">
     </a>
 </p>
+
 
 
 ## 🚧 Current Progress Status
