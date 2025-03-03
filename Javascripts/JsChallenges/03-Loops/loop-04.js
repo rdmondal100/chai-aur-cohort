@@ -22,6 +22,7 @@ rl.on('line', (input) => {
     // Call our function
     const result = totalWater(waterAmounts);
 
+    
     // Output the result as a JSON string
     process.stdout.write(JSON.stringify(result));
 });

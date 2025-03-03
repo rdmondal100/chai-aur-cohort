@@ -10,6 +10,7 @@ function totalStars(starLevels) {
             count++
         }
     }
+    
     return count
 }
 

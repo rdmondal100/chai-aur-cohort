@@ -9,6 +9,7 @@ function totalStars(starLevels) {
             // console.log("Riday")
             count++
         }
+        
     }
     return count
 }

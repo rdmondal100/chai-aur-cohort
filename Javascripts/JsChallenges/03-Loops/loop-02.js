@@ -5,4 +5,5 @@ function countApples(apples) {
         count++
     }
     return count
+    
 }

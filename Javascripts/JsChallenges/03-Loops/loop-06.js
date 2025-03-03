@@ -7,6 +7,7 @@ function workingDays(days) {
         let currentDay = days[i].toLowerCase()
         if ((currentDay == "saturday") || (currentDay == "sunday")) {
 
+            
             continue
         }
         cout++;

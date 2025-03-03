@@ -10,3 +10,4 @@ function distributeGifts(totalGifts, friends) {
     }
     return distributeGifts
 }
+

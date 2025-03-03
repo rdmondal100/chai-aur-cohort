@@ -17,7 +17,7 @@ rl.on('line', (input) => {
     const { totalBars, barsPerBox } = JSON.parse(input); // Parse input as number
     // Call our function
     const result = countBoxes(totalBars, barsPerBox);
-
+    
     // Output the result as a JSON string
     process.stdout.write(JSON.stringify(result));
 });

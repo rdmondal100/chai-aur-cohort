@@ -8,6 +8,7 @@ function countSteps(targetSteps) {
         count++
     }
 
+    
 }
 
 // Please don't remove the code below

@@ -26,3 +26,4 @@ rl.on('line', (input) => {
     const result = invertedMountain(n);  // Call our function
     process.stdout.write(result);  // Output the result
 });
+
