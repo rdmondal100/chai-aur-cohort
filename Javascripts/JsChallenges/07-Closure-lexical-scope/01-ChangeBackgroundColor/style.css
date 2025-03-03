@@ -1,0 +1,154 @@
+
+*{
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+body{
+    transition: all .5s ease-in-out;
+}
+
+
+main{
+    display: flex;
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: darkslategray;
+    max-height: 700px;
+    height: 80%;
+    max-width: 600px;
+    width: 70%;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 8px;
+    align-items:start;
+    box-sizing: border-box;
+    flex-direction: column;
+    
+}
+
+#warn-text{
+    padding: 5px;
+    color: rgb(234, 255, 0);
+    font-size: 13px;
+    font-weight: 600;
+    transform: scale(1);
+    transition: transform 1s ease-in-out;
+    display: none;
+}
+.input-hex-code{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 5px;
+}
+.select-dropdown{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 5px;
+}
+
+.devider {
+    background-color:rgba(105, 140, 140, 0.3);
+    height: 2px;
+    width: 100%;
+    position: relative;
+    top: 1rem;
+
+}
+.upper-container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.input-container{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 4px;
+}
+.input-container label{
+    color:  rgb(199, 227, 224);
+    font-size: medium;
+}
+.or{
+    color: gainsboro;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+#hex-color{
+    width: 150px;
+    padding: 2px;
+    outline: none;
+    border: none;
+    background-color: gainsboro;
+    height: 50px;
+    border-radius: 5px;
+}
+#select-color{
+    width: 150px;
+    padding: 12px;
+    outline: none;
+    border: none;
+    background-color: gainsboro;
+    border-radius: 5px;
+
+}
+
+#create-btn{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color:darkorange;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+.color-btn{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    width: auto;
+    font-weight: 800;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.buttons-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    width: 100%;
+    justify-content: center;
+    overflow-y: scroll;
+    transition: all 1s ease-in-out;
+}
+
+.buttons-container::-webkit-scrollbar{
+    background-color: rgb(69, 101, 101);
+}
+
+.buttons-container::-webkit-scrollbar-thumb{
+    background-color: rgb(109, 141, 141);
+    height: 20px;
+    border-radius: 2%;
+
+}
+
+.buttons-container::-webkit-scrollbar-track{
+    background-color: rgb(69, 101, 101);
+    
+}
