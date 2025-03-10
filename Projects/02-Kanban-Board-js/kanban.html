@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board by Riday</title>
+    <link rel="stylesheet" href="kanban.style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css"
+        integrity="sha512-v8QQ0YQ3H4K6Ic3PJkym91KoeNT5S3PnDKvqnwqFD1oiqIl653crGZplPdU5KKtHjO0QKcQ2aUlQZYjHczkmGw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <h1>Kanban Board by Riday</h1>
+        </header>
+
+        <!-- popover  -->
+        <div popover id="my-popover">
+            
+            <form class="popover-container" id="popover-container">
+                <h2 class="add-item-header">Add a new item</h2>
+                <input type="text" class="input-new-task" placeholder="Enter your task" id="input-new-task-value">
+                <button type="submit" class="add-new-item-btn" id="add-new-item-btn">
+                    <span>Add</span> <span class="plus-icon-container"> <i class="fa-solid fa-plus plus-icon"></i>
+                    </span> </button>
+            </form>
+        </div>
+
+        <!-- popover end  -->
+
+        <div class="boards-container">
+            <div class="all-boards" id="all-boards">
+                <!-- <div color-scheme="rgba(255, 166, 0, 0.983)" class="board todo-board" id="todoBoard">
+                    <div class="board-header-container">
+                        <div class="board-head"> <span class="circle"></span> <span class="board-label">Todo</span>
+                        </div>
+                        <div class="board-desc">The task I have to do</div>
+                    </div>
+
+                    <div class="all-item" id="all-item-todo">
+                        <div class="item">
+                            <div class="label-contaienr"> <span class="label-icon"></span> <span
+                                    class="label">Todo</span> </div>
+                            <div class="task">Task one </div>
+                        </div>
+                        <div class="item">
+                            <div class="label-contaienr"> <span class="label-icon"></span> <span
+                                class="label">Todo</span> </div>
+                        <div class="task">Task two </div>
+                        </div>
+                    </div>
+
+                    <div class="add-item-container ">
+                        <button popovertarget="my-popover" class="add-item">
+
+                            <span>Add item </span> <span class="plus-icon-container"> <i
+                                    class="fa-solid fa-plus plus-icon"></i> </span>
+                        </button>
+                    </div>
+                </div>
+
+                <div color-scheme="rgba(13, 78, 255, 0.983)" class="board doing-board" id="doingBoard">
+                    <div class="board-header-container">
+                        <div class="board-head">
+                            <div class="board-head"> <span class="circle"></span> <span class="board-label">Doing</span>
+                            </div>
+                        </div>
+                        <div class="board-desc">The task I am doing</div>
+                    </div>
+                    <div class="all-item">
+                        <div class="item">
+                            <div class="label-contaienr"> <span class="label-icon"></span> <span class="label">Doing</span> </div>
+                            <div class="task">Task three is here </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div color-scheme="rgba(0, 215, 54, 0.983)" class="board done-board " id="doneBoard">
+                    <div class="board-header-container">
+                        <div class="board-head">
+                            <div class="board-head"> <span class="circle"></span> <span class="board-label">Done</span>
+                            </div>
+                        </div>
+                        <div class="board-desc">The task I have done</div>
+                    </div>
+
+                    <div class="all-item ">
+                        <div class="item">
+                            <div class="label-contaienr"> <span class="label-icon"></span> <span class="label">Done</span> </div>
+                            <div class="task">Task four  </div>
+                        </div>
+                    </div>
+
+                </div> -->
+
+            </div>
+        </div>
+    </main>
+
+    <div class="theme-container">
+        <div class="theme" id="theme-btn">
+            <i class="fa-solid fa-sun sun-icon"></i>
+            <i class="fa-solid fa-moon moon-icon"></i>
+        </div>
+    </div>
+</body>
+<script src="kanban.js"></script>
+
+</html>
