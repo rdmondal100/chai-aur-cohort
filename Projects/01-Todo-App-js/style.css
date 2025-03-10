@@ -271,16 +271,16 @@ display: flex;
 
 .edit{
     cursor: pointer;
-    color: rgb(11, 143, 42);
+    color: #0b8f2a;
 }
 
 .delete{
     cursor: pointer;
-    color: rgb(216, 34, 34);
+    color: #d82222;
 }
 
 .saveBtn{
-    color: #3E1671 !important;
+    color: hsl(266, 67%, 26%) !important;
     transform: scale(1.5);
     cursor: pointer;
 }
