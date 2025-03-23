@@ -21,20 +21,20 @@ console.log(merged); // { x: 10, y: 20, z: 30 }
 
 
 
-const original = { name: "Alice", age: 25, fab:["a","b","c"] };
+const original = { name: "Alice", age: 25, fab: ["a", "b", "c"] };
 const clone = Object.assign({}, original);
 
 clone.age = 30;
 clone.fab[0] = "Riday"
-console.log(original); 
-console.log(clone); 
+console.log(original);
+console.log(clone);
 
 
 const obj5 = {
     name: "Riday",
-    lang:{
-        eng:"EN",
-        bang:"BN"
+    lang: {
+        eng: "EN",
+        bang: "BN"
     }
 }
 const obj4 = structuredClone(obj5);
@@ -52,7 +52,18 @@ const v2 = true;
 const v3 = 10;
 const v4 = Symbol("foo");
 
-const obj = Object.assign({}, v1,null, v2, undefined, v3, v4);
+const obj = Object.assign({}, v1, null, v2, undefined, v3, v4);
 // Primitives will be wrapped, null and undefined will be ignored.
 // Note, only string wrappers can have own enumerable properties.
 console.log(obj); // { "0": "a", "1": "b", "2": "c" }
+
+
+
+// _.cloneDeep()
+const student = {
+    name: "Riday mondal",
+    id: "21CSE006",
+    age: 22
+}
+const st1 = 
+console.log(st1)
